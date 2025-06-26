@@ -90,6 +90,13 @@ install(DIRECTORY include/
   DESTINATION include/
 )
 
+install(TARGETS barrier1_plugin
+  LIBRARY DESTINATION lib)
+
+install(TARGETS barrier1_clone_plugin
+  LIBRARY DESTINATION lib)
+
+
 ################################################################################
 # Macro for ament package
 ################################################################################
